@@ -17,19 +17,30 @@ h1 {
   font-size: 3rem;
   line-height: 1.5;
 }
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
 /* navigation bar */
 
 .navbar {
   padding: 0 0 4.5rem;
 }
+
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 .nav-item {
   padding: 0 18px;
 }
+
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat";
@@ -45,15 +56,24 @@ h1 {
   width: 60%;
   transform: rotate(20deg);
 }
+
 /* features */
-/* h3 {
-  font-family: "Montserrat-bold";
-  font-size: 1.5rem;
-  text-align: center;
-}
-.color {
-  color: #76ba1b;
-  display: block;
-}
+
 #features {
-} */
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon {
+  color: #76ba1b;
+  margin-bottom: 10px;
+}
+
+.icon:hover {
+  color: #578a15;
+  cursor: pointer;
+}
