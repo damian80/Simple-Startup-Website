@@ -93,6 +93,10 @@ h3 {
   color: #fff;
 }
 
+#testimonials-text {
+  padding: 7% 15%;
+}
+
 .image {
   width: 10%;
   border-radius: 100%;
