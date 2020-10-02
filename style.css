@@ -10,8 +10,6 @@ body {
 #title {
   background-color: #76ba1b;
   color: #fff;
-
-
 }
 
 h1 {
@@ -31,7 +29,6 @@ h3 {
   font-family: "Montserrat-Bold";
   font-size: 1.5rem;
   font-weight: bold;
-
 }
 
 /* navigation bar */
@@ -66,7 +63,6 @@ h3 {
   transform: rotate(20deg);
   position: absolute;
   right: 30%;
-
 }
 
 /* features */
@@ -75,8 +71,6 @@ h3 {
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
-
-
 }
 
 .feature-box {
@@ -133,15 +127,13 @@ h3 {
   text-align: center;
 }
 
-
-
 #pricing {
   text-align: center;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
-@media(max-width: 992px) {
+@media (max-width: 992px) {
   #title {
     text-align: center;
   }
@@ -158,15 +150,18 @@ h3 {
   color: #fff;
   text-align: center;
   padding: 5% 13%;
-
 }
 
 #big {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat-Black";
 }
-
-/* footer */
-footer {
+/* Footer */
+#footer {
+  padding: 5% 13%;
   text-align: center;
+}
+.icon {
+  margin: 5px;
 }
